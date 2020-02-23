@@ -49,7 +49,7 @@ Also before starting you need to make sure that the path to various files and fo
 * [MTCNN](https://pillow.readthedocs.io/en/stable/) : Used for detecting and cropping faces.
 * [OpenCV](https://opencv.org/) : Used for loading Haar Cascades and manipulating video streams.
 * [Keras](https://keras.io/) : Used for designing and training the Encoder model.
-* [Google Colab](https://colab.research.google.com/) : Used as the developement environment for executing high end computations on it's backend GPUs/TPUs and for editing Jupyter Notebook. 
+* [Google Colab](https://colab.research.google.com/) : Used as the developement environment for executing high-end computations on its backend GPUs/TPUs and for editing Jupyter Notebook. 
 
 ## Contributing
 You are welcome to contribute :
@@ -97,7 +97,7 @@ There are 3 kind of Triplets :
 * Semi-hard Triplet : **distance(anchor,positive) < distance(anchor,negative) < distance(anchor,positive) + alpha**
 * Hard Triplet : **distance(anchor,negative) < distance(anchor,positive)**
 
-It can be seen that Easy triplets have loss=0 , making them useless for training the Encoder network. So mostly Hard and Semi-hard Triplets are desired for training the Encoder network. Triplet Mining is therefore required to find triplets having maximum impact on the training process.
+It can be seen that Easy triplets have loss=0, making them useless for training the Encoder network. So mostly Hard and Semi-hard Triplets are desired for training the Encoder network. Triplet Mining is therefore required to find triplets having maximum impact on the training process.
 
 ### Siamese Network
 ![](Images/Siamese_Network.png)
@@ -111,7 +111,7 @@ Batches of size 100 with 75 hard and 25 random triplets (to respect the dataset 
 
 ![](Results/Triplet_Loss.png)
 
-The trained Encoder network was able to produce descent results considering the fact that it was trained on such a small dataset. Few Triplets with their positive and negative distances (Calculated using the trained Encoder network) :</br>
+The trained Encoder network was able to produce decent results considering the fact that it was trained on such a small dataset. Few Triplets with their positive and negative distances (Calculated using the trained Encoder network) :</br>
 
 ![](Results/Triplet_1.png)</br>
 

@@ -132,7 +132,7 @@ As it can be seen, our Face Recognizer Model is pretty good in detecting multipl
 ## Final Notes
 **Thanks for going through this Repository! Have a nice day.**</br>
 </br>**Got any Queries? Feel free to contact me.**</br>
-</br>**S Rohan Rao**
+</br>**Saini Rohan Rao**
 <p align="left">
 <a href="mailto:rohanrao619@gmail.com"><img src="https://github.com/rohanrao619/Icons/blob/master/SVGs/Gmail.svg" height ="45" title="Gmail" alt="mailto:rohanrao619@gmail.com"></a>
 <a href="https://github.com/rohanrao619"><img src="https://github.com/rohanrao619/Icons/blob/master/SVGs/GitHub.svg" height ="45" title="GitHub" alt="https://github.com/rohanrao619"></a>

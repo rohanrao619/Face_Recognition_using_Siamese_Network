@@ -27,6 +27,7 @@ Running this project on your local system requires the following packages to be 
      
      
  You can also use [Google Colab](https://colab.research.google.com/) in a Web Browser without needing to install the mentioned packages.
+ * Note: This project was implemented and tested in TensorFlow v1 and might not be compatible with the recent changes introduced in v2. If on Colab, you can specify the TensorFlow version using `%tensorflow_version 1.x`. You need to run a cell with this script before importing tensorflow or any other package having tensorflow as its dependacy. 
  
 ### Usage
 This project is implemented as an interactive Jupyter Notebook. You just need to open the notebook on your local system or on [Google Colab](https://colab.research.google.com/) and execute the code cells in sequential order. The function of each code cell is properly explained with the help of comments.</br>
